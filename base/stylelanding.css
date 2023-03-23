@@ -8,22 +8,64 @@
   grid-template-areas:
     "leftuppcorner leftuppcorner . rightuppcorner rightuppcorner"
     ". title title date sidelinks"
-    ". side-links content content sidelinks"
+    ". content-links content content sidelinks"
     "footer footer footer footer footer";
 }
 
-.content { grid-area: content; }
+.content { grid-area: content;
+font-family: 'Anonymous Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 24px;
+}
 
-.side-links { grid-area: side-links; }
+.side-links { grid-area: content-links; 
+font-family: 'Anonymous Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 24px;
+}
 
 .title { grid-area: title; }
 
-.date { grid-area: date; }
+.date { grid-area: date; 
+font-family: 'Anonymous Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 24px;
+}
 
-.sidelinks { grid-area: sidelinks; }
+.sidelinks { grid-area: sidelinks;
+font-family: 'Anonymous Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 24px;
+}
 
-.leftuppcorner { grid-area: leftuppcorner; }
+.leftuppcorner { grid-area: leftuppcorner;
+font-family: 'Anonymous Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 24px;
+}
 
-.rightuppcorner { grid-area: rightuppcorner; }
+.rightuppcorner { grid-area: rightuppcorner; 
+font-family: 'Anonymous Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 24px;
+}
 
-.footer { grid-area: footer; }
+.footer { grid-area: footer;
+font-family: 'Anonymous Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 24px;
+}
