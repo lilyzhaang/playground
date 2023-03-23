@@ -1,0 +1,86 @@
+/* ~ content page structure */
+
+title {
+position: absolute;
+width: 205px;
+height: 77px;
+left: 150px;
+top: 150px;
+
+/* title */
+
+font-family: 'Zvin Serif';
+font-style: normal;
+font-weight: 400;
+font-size: 64px;
+line-height: 77px;
+/* identical to box height */
+
+text-align: right;
+}
+
+content{
+  position: absolute;
+width: 878px;
+height: 816px;
+left: 439px;
+top: 279px;
+
+font-family: 'Anonymous Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 24px;
+
+}
+
+heading{
+  position: absolute;
+width: 305px;
+height: 18px;
+left: 50px;
+top: 50px;
+
+font-family: 'Anonymous Pro';
+font-style: italic;
+font-weight: 400;
+font-size: 18px;
+line-height: 18px;
+  /* identical to box height */
+}
+
+leftlinks{
+  /* > next in time */
+
+
+position: absolute;
+width: 184px;
+height: 24px;
+left: 150px;
+top: 318px;
+
+font-family: 'Anonymous Pro';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 24px;
+/* identical to box height */
+}
+
+
+datefill{
+position: absolute;
+width: 158px;
+height: 24px;
+left: 1159px;
+top: 190px;
+
+font-family: 'Anonymous Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 24px;
+/* identical to box height */
+
+text-align: right;
+}
