@@ -1,0 +1,28 @@
+.container {  display: grid;
+  grid-template-columns: 0.5fr 1.3fr 1.3fr 1.3fr 0.5fr;
+  grid-template-rows: 0.25fr 0.5fr 2fr 0.25fr;
+  grid-auto-rows: 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "leftuppcorner leftuppcorner . rightuppcorner rightuppcorner"
+    ". title title date sidelinks"
+    ". side-links content content sidelinks"
+    "footer footer footer footer footer";
+}
+
+.content { grid-area: content; }
+
+.side-links { grid-area: side-links; }
+
+.title { grid-area: title; }
+
+.date { grid-area: date; }
+
+.sidelinks { grid-area: sidelinks; }
+
+.leftuppcorner { grid-area: leftuppcorner; }
+
+.rightuppcorner { grid-area: rightuppcorner; }
+
+.footer { grid-area: footer; }
