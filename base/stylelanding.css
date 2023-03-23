@@ -1,4 +1,5 @@
-.container {  display: grid;
+.container {  
+  display: grid;
   grid-template-columns: 0.5fr 1.3fr 1.3fr 1.3fr 0.5fr;
   grid-template-rows: 0.25fr 0.5fr 2fr 0.25fr;
   grid-auto-rows: 1fr;
