@@ -1,7 +1,7 @@
 .container {  
   display: grid;
-  grid-template-columns: 0.5fr 1.3fr 1.3fr 1.3fr 0.5fr;
-  grid-template-rows: 0.25fr 0.5fr 2fr 0.25fr;
+  grid-template-columns: 200px 1.3fr 1.3fr 1.3fr 200px;
+  grid-template-rows: 300px 500px 1000px 300px;
   grid-auto-rows: 1fr;
   gap: 0px 0px;
   grid-auto-flow: row;
