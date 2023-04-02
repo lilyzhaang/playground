@@ -16,9 +16,6 @@ background: linear-gradient(234.86deg, #9CB0E4 37.57%, #FBF1CD 98.86%);
 }
 
 .content { grid-area: content;
-width: 400px;
-padding: 10px;
-margin: 187px;
 
 font-family: 'Anonymous Pro';
 font-style: normal;
@@ -28,9 +25,7 @@ line-height: 24px;
 }
 
 .side-links { grid-area: content-links; 
-/*width: 400px;
-padding: 10px;
-margin: 187px; */
+
 font-family: 'Anonymous Pro';
 font-style: bold;
 font-weight: 400;
@@ -39,14 +34,9 @@ line-height: 24px;
 }
 
 .title { grid-area: title; }
-width: 700px;
-padding: 10px;
-margin: 65px;
 
 .date { grid-area: date; 
-width: 700px;
-padding: 10px;
-margin: 65px;
+
 
 font-family: 'Anonymous Pro';
 font-style: normal;
@@ -56,9 +46,7 @@ line-height: 24px;
 }
 
 .sidelinks { grid-area: sidelinks;
-width: 700px;
-padding: 10px;
-margin: 65px; 
+
 writing-mode: vertical-lr;
 
 font-family: 'Anonymous Pro';
@@ -69,9 +57,7 @@ line-height: 24px;
 }
 
 .leftuppcorner { grid-area: leftuppcorner;
-width: 200px;
-padding: 10px;
-margin: 70px;
+
 
 font-family: 'Anonymous Pro';
 font-style: italic;
@@ -81,9 +67,7 @@ line-height: 24px;
 }
 
 .rightuppcorner { grid-area: rightuppcorner; 
-width: 200px;
-padding: 10px;
-margin: 70px;
+
 
 font-family: 'Anonymous Pro';
 font-style: bold;
