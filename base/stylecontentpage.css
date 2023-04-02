@@ -15,18 +15,64 @@ background: linear-gradient(234.86deg, #9CB0E4 37.57%, #FBF1CD 98.86%);
     "footer footer footer footer footer";
 }
 
-.left-upp { grid-area: left-upp; }
+.left-upp { grid-area: left-upp; 
+font-family: 'Anonymous Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 24px;
+}
+}
 
-.right-upp { grid-area: right-upp; }
+.right-upp { grid-area: right-upp; 
+font-family: 'Anonymous Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 24px;
+}
+}
 
-.side-links { grid-area: side-links; }
+.side-links { grid-area: side-links; 
+font-family: 'Anonymous Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 24px;
+}
+}
 
 .title { grid-area: title; }
 
-.date { grid-area: date; }
+.date { grid-area: date; 
+font-family: 'Anonymous Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 24px;
+}
 
-.direct-link { grid-area: direct-link; }
+.direct-link { grid-area: direct-link; 
+font-family: 'Anonymous Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 24px;
+}
 
-.content { grid-area: content; }
+.content { grid-area: content; font-family: 'Anonymous Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 24px;
+}
 
-.footer { grid-area: footer; }
+
+.footer { grid-area: footer;
+font-family: 'Anonymous Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 24px;
+}
+
