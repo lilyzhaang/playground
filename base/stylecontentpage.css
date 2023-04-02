@@ -1,3 +1,7 @@
+body{
+background: linear-gradient(234.86deg, #9CB0E4 37.57%, #FBF1CD 98.86%);
+}
+
 .container {  display: grid;
   grid-template-columns: 0.8fr 1.2fr 1.2fr 1fr 0.8fr;
   grid-template-rows: 0.3fr 0.5fr 0.7fr 3.1fr 0.4fr;
